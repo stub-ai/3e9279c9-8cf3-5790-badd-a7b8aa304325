@@ -1,0 +1,30 @@
+{
+  "cities": [
+    {
+      "name": "City A",
+      "coordinates": [0, 0],
+      "timeWindow": ["08:00", "18:00"]
+    },
+    {
+      "name": "City B",
+      "coordinates": [3, 4],
+      "timeWindow": ["09:00", "17:00"]
+    },
+    {
+      "name": "City C",
+      "coordinates": [1, 6],
+      "timeWindow": ["10:00", "16:00"]
+    },
+    {
+      "name": "City D",
+      "coordinates": [6, 8],
+      "timeWindow": ["11:00", "15:00"]
+    }
+  ],
+  "distances": [
+    [0, 5, 6.08, 10],
+    [5, 0, 2.24, 5],
+    [6.08, 2.24, 0, 5.66],
+    [10, 5, 5.66, 0]
+  ]
+}
